@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration
+	xmlns="http://logging.apache.org/log4j/2.0/config">
+	<Properties>
+		<Property name="APP_LOG_ROOT">/Foresight_Helpdesk_TT_V1.0/Middle_Layer/facade-foresight/log</Property>
+		<Property name="rollingFileName">facade-foresight</Property>
+	</Properties>
+	<Appenders>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{1} (%F:%L) - %m%n" />
+		</Console>
+		<RollingFile name="rollingFile"
+			fileName="${APP_LOG_ROOT}/facade-foresight.log"
+			filePattern="${APP_LOG_ROOT}/facade-foresight_%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{1} (%F:%L) - %m%n" />
+			<Policies>
+				<SizeBasedTriggeringPolicy size="5 MB"/>
+				<DefaultRolloverStrategy max="3" />
+				<OnStartupTriggeringPolicy />
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+			</Policies>
+
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="com.tcts" additivity="false">
+            <AppenderRef ref="console" level = "ALL"/>
+            <AppenderRef ref="rollingFile" level = "ALL" />
+        </Logger>
+	
+		<Root level="INFO" additivity="false">
+			<AppenderRef ref="console" level = "ALL"/>
+			<AppenderRef ref="rollingFile" level = "ALL"/>
+		</Root>
+
+	</Loggers>
+</Configuration>

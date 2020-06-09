@@ -1,0 +1,348 @@
+2020-06-09 12:35:14.789  INFO 21452 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Starting ForesightApplication on TCTSL-CD8232C6R with PID 21452 (E:\T2R\fefacade-master-foresight\target\classes started by TCTSL in E:\T2R\fefacade-master-foresight)
+2020-06-09 12:35:14.795 DEBUG 21452 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2020-06-09 12:35:14.795  INFO 21452 --- [restartedMain] com.tcts.foresight.ForesightApplication  : The following profiles are active: uat
+2020-06-09 12:35:14.843  INFO 21452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-09 12:35:14.851  INFO 21452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-09 12:35:18.458  INFO 21452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-09 12:35:18.828  INFO 21452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 362ms. Found 40 repository interfaces.
+2020-06-09 12:35:19.278  INFO 21452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$681d1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 12:35:19.778  INFO 21452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-06-09 12:35:19.801  INFO 21452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-09 12:35:19.801  INFO 21452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-06-09 12:35:19.964  INFO 21452 --- [restartedMain] o.a.c.c.C.[.[localhost].[/fefacade/api]  : Initializing Spring embedded WebApplicationContext
+2020-06-09 12:35:19.964  INFO 21452 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5113 ms
+2020-06-09 12:35:20.722  INFO 21452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-09 12:35:21.012  INFO 21452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-09 12:35:21.078  INFO 21452 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-09 12:35:21.144  INFO 21452 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-09 12:35:21.146  INFO 21452 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-09 12:35:21.281  INFO 21452 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-09 12:35:21.571  INFO 21452 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-09 12:35:26.763  INFO 21452 --- [restartedMain] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-06-09 12:35:26.769  INFO 21452 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3480f6d5
+2020-06-09 12:35:28.032  INFO 21452 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 12:35:29.460  INFO 21452 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-09 12:35:30.961  WARN 21452 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-09 12:35:31.193  INFO 21452 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-09 12:35:31.293  INFO 21452 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-09 12:35:31.528  INFO 21452 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 12:35:31.661  INFO 21452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-09 12:35:32.155  INFO 21452 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-09 12:35:32.185  INFO 21452 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-09 12:35:32.251  INFO 21452 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-09 12:35:32.488  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByKeyUsingGET_1
+2020-06-09 12:35:32.521  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllImpactListUsingGET_1
+2020-06-09 12:35:32.535  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPriorityNameUsingGET_1
+2020-06-09 12:35:32.719  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: assignToMeUsingPUT_1
+2020-06-09 12:35:32.724  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_1
+2020-06-09 12:35:32.738  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchStatusVisitedUsingGET_1
+2020-06-09 12:35:32.741  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchallIncidentListUsingPOST_1
+2020-06-09 12:35:32.744  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: patchIncidentUsingPATCH_1
+2020-06-09 12:35:32.756  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateProcessInstanceDetailsUsingPOST_1
+2020-06-09 12:35:32.762  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchAllNotificationUsingGET_1
+2020-06-09 12:35:32.767  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_2
+2020-06-09 12:35:32.796  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllStatusUsingGET_1
+2020-06-09 12:35:32.831  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveFeedbackUsingPOST_1
+2020-06-09 12:35:32.902  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchOnlyGroupUsingGET_1
+2020-06-09 12:35:32.920  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPageAccessListUsingGET_1
+2020-06-09 12:35:32.998  INFO 21452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path '/fefacade/api'
+2020-06-09 12:35:33.003  INFO 21452 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Started ForesightApplication in 18.595 seconds (JVM running for 20.269)
+2020-06-09 12:45:39.397  INFO 21452 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-09 12:45:39.464  INFO 21452 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 12:45:39.471  INFO 21452 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-09 12:45:39.489  INFO 21452 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-09 12:45:42.334  INFO 21452 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Starting ForesightApplication on TCTSL-CD8232C6R with PID 21452 (E:\T2R\fefacade-master-foresight\target\classes started by TCTSL in E:\T2R\fefacade-master-foresight)
+2020-06-09 12:45:42.336 DEBUG 21452 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2020-06-09 12:45:42.344  INFO 21452 --- [restartedMain] com.tcts.foresight.ForesightApplication  : The following profiles are active: @activatedProperties@
+2020-06-09 12:45:43.234  INFO 21452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-09 12:45:43.422  INFO 21452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 188ms. Found 40 repository interfaces.
+2020-06-09 12:45:43.522  INFO 21452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$681d1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 12:45:43.739  INFO 21452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-06-09 12:45:43.742  INFO 21452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-09 12:45:43.743  INFO 21452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-06-09 12:45:43.767  INFO 21452 --- [restartedMain] o.a.c.c.C.[.[localhost].[/fefacade/api]  : Initializing Spring embedded WebApplicationContext
+2020-06-09 12:45:43.768  INFO 21452 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1411 ms
+2020-06-09 12:45:44.085  INFO 21452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-06-09 12:45:44.288  INFO 21452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-06-09 12:45:44.314  INFO 21452 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-09 12:45:44.363  INFO 21452 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-09 12:45:49.440  INFO 21452 --- [restartedMain] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-06-09 12:45:49.442  INFO 21452 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3480f6d5
+2020-06-09 12:45:49.854  INFO 21452 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 12:45:49.915  INFO 21452 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-09 12:45:50.825  WARN 21452 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-09 12:45:50.970  INFO 21452 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-09 12:45:51.021  INFO 21452 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-09 12:45:51.069  INFO 21452 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 12:45:51.094  INFO 21452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-09 12:45:51.270  INFO 21452 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-09 12:45:51.272  INFO 21452 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-09 12:45:51.284  INFO 21452 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-09 12:45:51.362  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByKeyUsingGET_1
+2020-06-09 12:45:51.395  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllImpactListUsingGET_1
+2020-06-09 12:45:51.407  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPriorityNameUsingGET_1
+2020-06-09 12:45:51.505  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: assignToMeUsingPUT_1
+2020-06-09 12:45:51.508  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_1
+2020-06-09 12:45:51.516  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchStatusVisitedUsingGET_1
+2020-06-09 12:45:51.519  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchallIncidentListUsingPOST_1
+2020-06-09 12:45:51.521  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: patchIncidentUsingPATCH_1
+2020-06-09 12:45:51.534  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateProcessInstanceDetailsUsingPOST_1
+2020-06-09 12:45:51.539  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchAllNotificationUsingGET_1
+2020-06-09 12:45:51.544  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_2
+2020-06-09 12:45:51.565  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllStatusUsingGET_1
+2020-06-09 12:45:51.588  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveFeedbackUsingPOST_1
+2020-06-09 12:45:51.622  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchOnlyGroupUsingGET_1
+2020-06-09 12:45:51.633  INFO 21452 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPageAccessListUsingGET_1
+2020-06-09 12:45:51.669  INFO 21452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path '/fefacade/api'
+2020-06-09 12:45:51.670  INFO 21452 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Started ForesightApplication in 9.4 seconds (JVM running for 638.936)
+2020-06-09 12:45:51.676  INFO 21452 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-09 12:47:07.949  INFO 21452 --- [http-nio-8090-exec-1] o.a.c.c.C.[.[localhost].[/fefacade/api]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-09 12:47:07.951  INFO 21452 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-09 12:47:07.962  INFO 21452 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-06-09 12:47:52.119  INFO 21452 --- [http-nio-8090-exec-1] c.t.f.s.i.IncidentCreationServiceImpl    : ====================	lMappedVariableInstanceLogVOOLDClone===================={"parentTicketId":null,"childTicketId":null,"totalIncidentAgeingInMinutes":null,"processInstanceId":"3187","incidentID":"IN202006090002","incidentType":"Incident","atm":null,"addToKb":"false","resolutionMethod":"","incidentClosedDate":null,"resolvedBy":"","resolutionType":"","resolutionRemarks":"","resolvedTimer":"","category":"Customer Service","subCategory":"ILL","title":"sdfg","impact":"2-Medium","urgency":"2-Medium","priority":"P777","source":"Customer Portal","sourceContact":"","assignmentGroup":"Incident Creation Group","assignTo":"deep.shah@tatacommunications.com","markAsMajorIncident":"false","configurationItem":"","comments":"ghjk","descriptions":"","addAttachment":"","status":"In Progress","statusRemark":"Field team dependency","incidentCreationDate":"2020-06-09 12:36:23","resolvedDate":null,"lastUpdatedDate":"2020-06-09 12:43:35","lastUpdatedBy":"Deep Shah","module":"IM","fullName":"Deep Shah","initiator":"deep.shah@tatacommunications.com","createdByFullName":"Deep Shah","createdBy":"deep.shah@tatacommunications.com","responseSlaBreach":null,"resolutionSlaBreach":null,"resolutionSlaBracket":null,"email":"deep.shah@tatacommunications.com","sms":"9004502372","statusChangeCheckbox":"true","feedbackCheckbox":"true","workAround":null,"loggedInUser":null,"incidentAgeing":null,"incidentAttachList":null}
+2020-06-09 12:47:52.119  INFO 21452 --- [http-nio-8090-exec-1] c.t.f.s.i.IncidentCreationServiceImpl    : authToken : ZGVlcC5zaGFoQHRhdGFjb21tdW5pY2F0aW9ucy5jb206RGVlcEAxMjM= : containerId : Foresight_1_1.0.0 : taskInstanceId :11636 : clientCode : login : processInstanceId :  3187
+2020-06-09 12:47:53.271  INFO 21452 --- [http-nio-8090-exec-1] c.t.f.s.i.IncidentCreationServiceImpl    : mappedVariableInstanceLogVO JBPM mappedVariableInstanceLogVO.getStatus():- On Hold
+2020-06-09 12:47:53.346  INFO 21452 --- [http-nio-8090-exec-1] c.t.f.s.i.IncidentCreationServiceImpl    : lMappedVariableInstanceLogVONEW============================ - IN202006090002
+2020-06-09 12:53:52.841  INFO 21452 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-06-09 12:53:52.852  INFO 21452 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-09 12:53:52.870  INFO 21452 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 12:53:52.873  INFO 21452 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-06-09 12:53:52.880  INFO 21452 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-06-09 13:09:17.374  INFO 14072 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Starting ForesightApplication on TCTSL-CD8232C6R with PID 14072 (E:\T2R\fefacade-master-foresight\target\classes started by TCTSL in E:\T2R\fefacade-master-foresight)
+2020-06-09 13:09:17.382 DEBUG 14072 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2020-06-09 13:09:17.388  INFO 14072 --- [restartedMain] com.tcts.foresight.ForesightApplication  : The following profiles are active: @activatedProperties@
+2020-06-09 13:09:17.468  INFO 14072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-09 13:09:17.468  INFO 14072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-09 13:09:19.647  INFO 14072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-09 13:09:20.036  INFO 14072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 378ms. Found 40 repository interfaces.
+2020-06-09 13:09:20.704  INFO 14072 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8877b13a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 13:09:21.570  INFO 14072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-06-09 13:09:21.623  INFO 14072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-09 13:09:21.624  INFO 14072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-06-09 13:09:22.059  INFO 14072 --- [restartedMain] o.a.c.c.C.[.[localhost].[/fefacade/api]  : Initializing Spring embedded WebApplicationContext
+2020-06-09 13:09:22.060  INFO 14072 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4592 ms
+2020-06-09 13:09:23.494  INFO 14072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-09 13:09:23.818  INFO 14072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-09 13:09:23.912  INFO 14072 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-09 13:09:24.013  INFO 14072 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-09 13:09:24.016  INFO 14072 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-09 13:09:24.216  INFO 14072 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-09 13:09:24.507  INFO 14072 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-09 13:09:29.957  INFO 14072 --- [restartedMain] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-06-09 13:09:29.962  INFO 14072 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3871ae7d
+2020-06-09 13:09:31.283  INFO 14072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 13:09:33.145  INFO 14072 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-09 13:09:34.846  WARN 14072 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-09 13:09:35.106  INFO 14072 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-09 13:09:35.203  INFO 14072 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-09 13:09:35.315  INFO 14072 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 13:09:35.376  WARN 14072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-06-09 13:09:35.743  INFO 14072 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-09 13:09:35.762  INFO 14072 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-09 13:09:35.834  INFO 14072 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-09 13:09:36.092  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByKeyUsingGET_1
+2020-06-09 13:09:36.137  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllImpactListUsingGET_1
+2020-06-09 13:09:36.152  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPriorityNameUsingGET_1
+2020-06-09 13:09:36.394  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: assignToMeUsingPUT_1
+2020-06-09 13:09:36.399  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_1
+2020-06-09 13:09:36.416  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchStatusVisitedUsingGET_1
+2020-06-09 13:09:36.418  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchallIncidentListUsingPOST_1
+2020-06-09 13:09:36.422  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: patchIncidentUsingPATCH_1
+2020-06-09 13:09:36.468  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateProcessInstanceDetailsUsingPOST_1
+2020-06-09 13:09:36.478  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchAllNotificationUsingGET_1
+2020-06-09 13:09:36.485  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_2
+2020-06-09 13:09:36.518  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllStatusUsingGET_1
+2020-06-09 13:09:36.549  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveFeedbackUsingPOST_1
+2020-06-09 13:09:36.612  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchOnlyGroupUsingGET_1
+2020-06-09 13:09:36.632  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPageAccessListUsingGET_1
+2020-06-09 13:09:36.726  INFO 14072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path '/fefacade/api'
+2020-06-09 13:09:36.731  INFO 14072 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Started ForesightApplication in 19.799 seconds (JVM running for 21.568)
+2020-06-09 13:09:48.455  INFO 14072 --- [http-nio-8090-exec-1] o.a.c.c.C.[.[localhost].[/fefacade/api]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-09 13:09:48.456  INFO 14072 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-09 13:09:48.467  INFO 14072 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-06-09 13:10:51.543  INFO 14072 --- [http-nio-8090-exec-5] c.t.f.s.i.IncidentCreationServiceImpl    : ====================	lMappedVariableInstanceLogVOOLDClone===================={"parentTicketId":null,"childTicketId":null,"totalIncidentAgeingInMinutes":null,"processInstanceId":"3187","incidentID":"IN202006090002","incidentType":"Incident","atm":null,"addToKb":"false","resolutionMethod":"","incidentClosedDate":null,"resolvedBy":"","resolutionType":"","resolutionRemarks":"","resolvedTimer":"","category":"Customer Service","subCategory":"ILL","title":"sdfg","impact":"2-Medium","urgency":"2-Medium","priority":"P777","source":"Customer Portal","sourceContact":"","assignmentGroup":"Incident Creation Group","assignTo":"deep.shah@tatacommunications.com","markAsMajorIncident":"false","configurationItem":"","comments":"tyuiol","descriptions":"","addAttachment":"","status":"On Hold","statusRemark":"Field team dependency","incidentCreationDate":"2020-06-09 12:36:23","resolvedDate":null,"lastUpdatedDate":"2020-06-09 12:48:05","lastUpdatedBy":"Deep Shah","module":"IM","fullName":"Deep Shah","initiator":"deep.shah@tatacommunications.com","createdByFullName":"Deep Shah","createdBy":"deep.shah@tatacommunications.com","responseSlaBreach":null,"resolutionSlaBreach":null,"resolutionSlaBracket":null,"email":"deep.shah@tatacommunications.com","sms":"9004502372","statusChangeCheckbox":"true","feedbackCheckbox":"true","workAround":null,"loggedInUser":null,"incidentAgeing":null,"incidentAttachList":null}
+2020-06-09 13:10:51.544  INFO 14072 --- [http-nio-8090-exec-5] c.t.f.s.i.IncidentCreationServiceImpl    : authToken : ZGVlcC5zaGFoQHRhdGFjb21tdW5pY2F0aW9ucy5jb206RGVlcEAxMjM= : containerId : Foresight_1_1.0.0 : taskInstanceId :11637 : clientCode : login : processInstanceId :  3187
+2020-06-09 13:10:52.737  INFO 14072 --- [http-nio-8090-exec-5] c.t.f.s.i.IncidentCreationServiceImpl    : mappedVariableInstanceLogVO JBPM mappedVariableInstanceLogVO.getStatus():- In Progress
+2020-06-09 13:10:52.823  INFO 14072 --- [http-nio-8090-exec-5] c.t.f.s.i.IncidentCreationServiceImpl    : lMappedVariableInstanceLogVONEW============================ - IN202006090002
+2020-06-09 13:11:42.711  INFO 14072 --- [http-nio-8090-exec-8] c.t.f.s.i.IncidentCreationServiceImpl    : ====================	lMappedVariableInstanceLogVOOLDClone===================={"parentTicketId":null,"childTicketId":null,"totalIncidentAgeingInMinutes":null,"processInstanceId":"3187","incidentID":"IN202006090002","incidentType":"Incident","atm":null,"addToKb":"false","resolutionMethod":"","incidentClosedDate":null,"resolvedBy":"","resolutionType":"","resolutionRemarks":"","resolvedTimer":"","category":"Customer Service","subCategory":"ILL","title":"sdfg","impact":"2-Medium","urgency":"2-Medium","priority":"P777","source":"Customer Portal","sourceContact":"","assignmentGroup":"Incident Creation Group","assignTo":"deep.shah@tatacommunications.com","markAsMajorIncident":"false","configurationItem":"","comments":"Hiiii","descriptions":"","addAttachment":"","status":"In Progress","statusRemark":"Field team dependency","incidentCreationDate":"2020-06-09 12:36:23","resolvedDate":null,"lastUpdatedDate":"2020-06-09 13:11:05","lastUpdatedBy":"Deep Shah","module":"IM","fullName":"Deep Shah","initiator":"deep.shah@tatacommunications.com","createdByFullName":"Deep Shah","createdBy":"deep.shah@tatacommunications.com","responseSlaBreach":null,"resolutionSlaBreach":null,"resolutionSlaBracket":null,"email":"deep.shah@tatacommunications.com","sms":"9004502372","statusChangeCheckbox":"true","feedbackCheckbox":"true","workAround":null,"loggedInUser":null,"incidentAgeing":null,"incidentAttachList":null}
+2020-06-09 13:11:42.712  INFO 14072 --- [http-nio-8090-exec-8] c.t.f.s.i.IncidentCreationServiceImpl    : authToken : ZGVlcC5zaGFoQHRhdGFjb21tdW5pY2F0aW9ucy5jb206RGVlcEAxMjM= : containerId : Foresight_1_1.0.0 : taskInstanceId :11638 : clientCode : login : processInstanceId :  3187
+2020-06-09 13:11:43.998  INFO 14072 --- [http-nio-8090-exec-8] c.t.f.s.i.IncidentCreationServiceImpl    : mappedVariableInstanceLogVO JBPM mappedVariableInstanceLogVO.getStatus():- Resolved
+2020-06-09 13:11:44.065  INFO 14072 --- [http-nio-8090-exec-8] c.t.f.s.i.IncidentCreationServiceImpl    : lMappedVariableInstanceLogVONEW============================ - IN202006090002
+2020-06-09 13:12:52.708  INFO 14072 --- [http-nio-8090-exec-2] c.t.f.s.i.IncidentCreationServiceImpl    : authToken : ZGVlcC5zaGFoQHRhdGFjb21tdW5pY2F0aW9ucy5jb206RGVlcEAxMjM= : containerId : Foresight_1_1.0.0 : taskInstanceId :11640 : clientCode : login : processInstanceId :  3188
+2020-06-09 13:12:53.891  INFO 14072 --- [http-nio-8090-exec-2] c.t.f.s.i.IncidentCreationServiceImpl    : mappedVariableInstanceLogVO JBPM mappedVariableInstanceLogVO.getStatus():- In Progress
+2020-06-09 13:12:53.996  INFO 14072 --- [http-nio-8090-exec-2] c.t.f.s.i.IncidentCreationServiceImpl    : lMappedVariableInstanceLogVONEW============================ - IN202006090003
+2020-06-09 13:20:18.083  INFO 14072 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-09 13:20:18.097  INFO 14072 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 13:20:18.100  INFO 14072 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-09 13:20:18.105  INFO 14072 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-09 13:20:19.402  INFO 14072 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Starting ForesightApplication on TCTSL-CD8232C6R with PID 14072 (E:\T2R\fefacade-master-foresight\target\classes started by TCTSL in E:\T2R\fefacade-master-foresight)
+2020-06-09 13:20:19.402 DEBUG 14072 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2020-06-09 13:20:19.402  INFO 14072 --- [restartedMain] com.tcts.foresight.ForesightApplication  : The following profiles are active: @activatedProperties@
+2020-06-09 13:20:20.259  INFO 14072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-09 13:20:20.422  INFO 14072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 163ms. Found 40 repository interfaces.
+2020-06-09 13:20:20.518  INFO 14072 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8877b13a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 13:20:20.751  INFO 14072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-06-09 13:20:20.754  INFO 14072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-09 13:20:20.755  INFO 14072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-06-09 13:20:20.783  INFO 14072 --- [restartedMain] o.a.c.c.C.[.[localhost].[/fefacade/api]  : Initializing Spring embedded WebApplicationContext
+2020-06-09 13:20:20.783  INFO 14072 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1378 ms
+2020-06-09 13:20:21.090  INFO 14072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-06-09 13:20:21.333  INFO 14072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-06-09 13:20:21.373  INFO 14072 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-09 13:20:21.454  INFO 14072 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-09 13:20:27.599  INFO 14072 --- [restartedMain] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-06-09 13:20:27.600  INFO 14072 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3871ae7d
+2020-06-09 13:20:27.997  INFO 14072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 13:20:28.061  INFO 14072 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-09 13:20:28.899  WARN 14072 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-09 13:20:29.034  INFO 14072 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-09 13:20:29.086  INFO 14072 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-09 13:20:29.127  INFO 14072 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 13:20:29.146  INFO 14072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-09 13:20:29.326  INFO 14072 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-09 13:20:29.328  INFO 14072 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-09 13:20:29.347  INFO 14072 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-09 13:20:29.421  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByKeyUsingGET_1
+2020-06-09 13:20:29.444  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllImpactListUsingGET_1
+2020-06-09 13:20:29.452  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPriorityNameUsingGET_1
+2020-06-09 13:20:29.557  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: assignToMeUsingPUT_1
+2020-06-09 13:20:29.560  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_1
+2020-06-09 13:20:29.566  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchStatusVisitedUsingGET_1
+2020-06-09 13:20:29.567  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchallIncidentListUsingPOST_1
+2020-06-09 13:20:29.571  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: patchIncidentUsingPATCH_1
+2020-06-09 13:20:29.581  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateProcessInstanceDetailsUsingPOST_1
+2020-06-09 13:20:29.587  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchAllNotificationUsingGET_1
+2020-06-09 13:20:29.591  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_2
+2020-06-09 13:20:29.617  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllStatusUsingGET_1
+2020-06-09 13:20:29.633  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveFeedbackUsingPOST_1
+2020-06-09 13:20:29.670  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchOnlyGroupUsingGET_1
+2020-06-09 13:20:29.682  INFO 14072 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPageAccessListUsingGET_1
+2020-06-09 13:20:29.711  INFO 14072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path '/fefacade/api'
+2020-06-09 13:20:29.712  INFO 14072 --- [restartedMain] com.tcts.foresight.ForesightApplication  : Started ForesightApplication in 10.352 seconds (JVM running for 674.548)
+2020-06-09 13:20:29.719  INFO 14072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-09 13:20:34.370  INFO 14072 --- [http-nio-8090-exec-1] o.a.c.c.C.[.[localhost].[/fefacade/api]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-09 13:20:34.373  INFO 14072 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-09 13:20:34.383  INFO 14072 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-06-09 13:20:36.015  INFO 14072 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-06-09 13:20:36.020  INFO 14072 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-09 13:20:36.027  INFO 14072 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 13:20:36.029  INFO 14072 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-06-09 13:20:36.037  INFO 14072 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-06-09 13:21:33.867  WARN 4828 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/TCTSL/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/TCTSL/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-06-09 13:21:33.906  INFO 4828 --- [main] c.t.foresight.ForesightApplicationTests  : Starting ForesightApplicationTests on TCTSL-CD8232C6R with PID 4828 (started by TCTSL in E:\T2R\fefacade-master-foresight)
+2020-06-09 13:21:33.914 DEBUG 4828 --- [main] c.t.foresight.ForesightApplicationTests  : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2020-06-09 13:21:33.915  INFO 4828 --- [main] c.t.foresight.ForesightApplicationTests  : The following profiles are active: @activatedProperties@
+2020-06-09 13:21:38.441  INFO 4828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-09 13:21:38.849  INFO 4828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 392ms. Found 40 repository interfaces.
+2020-06-09 13:21:39.942  INFO 4828 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c16b4743] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 13:21:40.533  INFO 4828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-09 13:21:40.958  INFO 4828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-09 13:21:41.122  INFO 4828 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-09 13:21:41.256  INFO 4828 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-09 13:21:41.259  INFO 4828 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-09 13:21:41.499  INFO 4828 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-09 13:21:42.477  INFO 4828 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-09 13:21:49.844  INFO 4828 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-06-09 13:21:49.852  INFO 4828 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1144a02b
+2020-06-09 13:21:51.498  INFO 4828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 13:21:53.827  INFO 4828 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-09 13:21:56.817  WARN 4828 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-09 13:21:57.860  INFO 4828 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-09 13:21:58.171  INFO 4828 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-09 13:21:59.132  INFO 4828 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 13:22:00.391  INFO 4828 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-09 13:22:00.477  INFO 4828 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-09 13:22:00.603  INFO 4828 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-09 13:22:01.013  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByKeyUsingGET_1
+2020-06-09 13:22:01.077  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllImpactListUsingGET_1
+2020-06-09 13:22:01.105  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPriorityNameUsingGET_1
+2020-06-09 13:22:01.464  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: assignToMeUsingPUT_1
+2020-06-09 13:22:01.472  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_1
+2020-06-09 13:22:01.529  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchStatusVisitedUsingGET_1
+2020-06-09 13:22:01.534  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchallIncidentListUsingPOST_1
+2020-06-09 13:22:01.547  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: patchIncidentUsingPATCH_1
+2020-06-09 13:22:01.623  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateProcessInstanceDetailsUsingPOST_1
+2020-06-09 13:22:01.669  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchAllNotificationUsingGET_1
+2020-06-09 13:22:01.683  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_2
+2020-06-09 13:22:01.760  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllStatusUsingGET_1
+2020-06-09 13:22:01.838  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveFeedbackUsingPOST_1
+2020-06-09 13:22:02.021  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchOnlyGroupUsingGET_1
+2020-06-09 13:22:02.054  INFO 4828 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPageAccessListUsingGET_1
+2020-06-09 13:22:02.222  INFO 4828 --- [main] c.t.foresight.ForesightApplicationTests  : Started ForesightApplicationTests in 28.936 seconds (JVM running for 30.292)
+2020-06-09 13:22:02.722  INFO 4828 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-09 13:22:02.764  INFO 4828 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 13:22:02.767  INFO 4828 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-09 13:22:02.813  INFO 4828 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-09 13:41:32.854  WARN 12724 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/TCTSL/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/TCTSL/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-06-09 13:41:32.893  INFO 12724 --- [main] c.t.foresight.ForesightApplicationTests  : Starting ForesightApplicationTests on TCTSL-CD8232C6R with PID 12724 (started by TCTSL in E:\T2R\fefacade-master-foresight)
+2020-06-09 13:41:32.894 DEBUG 12724 --- [main] c.t.foresight.ForesightApplicationTests  : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2020-06-09 13:41:32.895  INFO 12724 --- [main] c.t.foresight.ForesightApplicationTests  : The following profiles are active: @activatedProperties@
+2020-06-09 13:41:36.805  INFO 12724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-09 13:41:37.398  INFO 12724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 579ms. Found 40 repository interfaces.
+2020-06-09 13:41:38.638  INFO 12724 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b9340098] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 13:41:39.321  INFO 12724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-09 13:41:39.790  INFO 12724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-09 13:41:39.949  INFO 12724 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-09 13:41:40.266  INFO 12724 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-09 13:41:40.273  INFO 12724 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-09 13:41:40.756  INFO 12724 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-09 13:41:42.093  INFO 12724 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-09 13:41:47.928  INFO 12724 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-06-09 13:41:47.938  INFO 12724 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@49cc9b2a
+2020-06-09 13:41:49.900  INFO 12724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 13:41:52.308  INFO 12724 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-09 13:41:55.424  WARN 12724 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-09 13:41:56.504  INFO 12724 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-09 13:41:56.834  INFO 12724 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-09 13:41:57.616  INFO 12724 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 13:41:58.609  INFO 12724 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-09 13:41:58.660  INFO 12724 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-09 13:41:58.762  INFO 12724 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-09 13:41:59.247  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByKeyUsingGET_1
+2020-06-09 13:41:59.361  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllImpactListUsingGET_1
+2020-06-09 13:41:59.380  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPriorityNameUsingGET_1
+2020-06-09 13:41:59.713  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: assignToMeUsingPUT_1
+2020-06-09 13:41:59.723  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_1
+2020-06-09 13:41:59.740  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchStatusVisitedUsingGET_1
+2020-06-09 13:41:59.743  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchallIncidentListUsingPOST_1
+2020-06-09 13:41:59.748  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: patchIncidentUsingPATCH_1
+2020-06-09 13:41:59.788  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateProcessInstanceDetailsUsingPOST_1
+2020-06-09 13:41:59.802  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchAllNotificationUsingGET_1
+2020-06-09 13:41:59.814  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAttachmentUsingDELETE_2
+2020-06-09 13:41:59.878  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllStatusUsingGET_1
+2020-06-09 13:41:59.927  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveFeedbackUsingPOST_1
+2020-06-09 13:42:00.014  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: fetchOnlyGroupUsingGET_1
+2020-06-09 13:42:00.079  INFO 12724 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPageAccessListUsingGET_1
+2020-06-09 13:42:00.199  INFO 12724 --- [main] c.t.foresight.ForesightApplicationTests  : Started ForesightApplicationTests in 28.019 seconds (JVM running for 29.392)
+2020-06-09 13:42:00.439  INFO 12724 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-09 13:42:00.465  INFO 12724 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 13:42:00.469  INFO 12724 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-09 13:42:00.477  INFO 12724 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
